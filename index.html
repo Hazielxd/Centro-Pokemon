@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./1337537_game_go_play_pokeball_pokemon_icon (1).png" type="image/x-icon">
+    <title>Centro Pokémon</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">CENTRO POKÉMON</h1>
+    </div>
+    <div class="video-container">
+        <video id="fondo" autoplay loop muted src="./2022-03-12 21-53-05.mp4"></video>
+    </div>
+    <div id="FormContainer">
+        <label id="poke" for="inputi">Pokémon</label>
+    </div>
+    <div id="FormContainer1">
+        <input id="inputi" type="text" placeholder="Inserta el Pokémon">
+        <button id="btn1">Buscar</button>
+    </div>
+    <div id="pokemon-info" class="hidden">
+        <h2 id="pokemon-name"></h2>
+        <img id="pokemon-image" alt="Imagen del Pokémon">
+        <p>ID: <span id="pokemon-id"></span></p>
+        <p>Altura: <span id="pokemon-height"></span></p>
+        <p>Peso: <span id="pokemon-weight"></span></p>
+        <p>Tipo(s): <span id="pokemon-types"></span></p>
+    </div>
+    <audio autoplay loop src="./Disfigure - Blank.mp3"></audio>
+    <script src="index.js"></script>
+</body>
+</html>
